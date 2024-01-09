@@ -772,6 +772,7 @@ header nav ul {
     height: auto;
     border-radius: 10%;
     margin: auto;
+    margin-top: 1rem;
   }
 
   #tema_05_info_p {
