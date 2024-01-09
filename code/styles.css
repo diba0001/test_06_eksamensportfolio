@@ -1,0 +1,938 @@
+/* BODY CSS */
+
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+/* FOOTER */
+
+#footer {
+  font-family: "Young Serif";
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  margin-top: 10rem;
+  gap: 10px;
+  border-top: 1px solid white;
+  padding: 20px;
+}
+
+#footer_p {
+  font-family: "Arimo";
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  color: red;
+  gap: 10px;
+}
+
+/* HEADER & LINKS */
+
+a {
+  color: white;
+  font-family: "Young Serif", sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+a:hover {
+  color: red;
+  font-family: "Young Serif", sans-serif;
+}
+header {
+  top: 0;
+  padding: 1rem 1rem;
+  align-items: center;
+  align-self: center;
+  border-bottom: 1px solid white;
+}
+header nav ul,
+header nav {
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  overflow-x: auto;
+  align-items: baseline;
+  align-items: center;
+}
+header nav ul {
+  gap: 1rem;
+}
+
+/* BURGER-menu */
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-family: "Young Serif";
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.menu a:hover {
+  color: red;
+  font-family: "Young Serif", sans-serif;
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
+
+/* FONTS */
+
+/* DM Serif Display */
+@font-face {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  src: local("DM Serif Display Regular"), local("DMSerifDisplay-Regular"), url(https://fonts.gstatic.com/s/dmserifdisplay/v7/rnCm-x5M1sxpLuWPVsfaRRl4o_g.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* Bebas Neue */
+
+@font-face {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Bebas Neue Regular"), local("BebasNeue-Regular"), url(https://fonts.gstatic.com/s/bebasneue/v3/JTUSjIg69CK48gW7PXoo9Wdhzg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* ARIMO */
+
+@font-face {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Arimo Bold"), local("Arimo-Bold"), url(https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap) format("woff2");
+}
+
+/* Young Serif */
+
+@font-face {
+  font-family: "Young Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Young Serif"), local("YoungSerif-Regular"), url(https://fonts.gstatic.com/s/youngserif/v6/6xKvdShfL9yUstHfuDVkgW5nOqkY6rW9WS9zfoY.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* EB Garamond */
+
+@font-face {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/ebgaramond/v11/SlGUmQSNjdsmc35JDF1K5FRy.ttf) format("truetype");
+}
+
+/* WARP CSS */
+
+#MM_kinetic_warp {
+  width: 100%;
+  height: auto;
+}
+
+/* INDEX h1 */
+
+#index_h1 {
+  display: grid;
+  color: red;
+  font-size: 15px;
+  font-family: "Young Serif", serif;
+  text-decoration: solid;
+  text-transform: uppercase;
+  justify-items: center;
+  margin-top: 0;
+}
+
+#index_h1 h4 {
+  display: none;
+}
+
+/* PROJECT.html container css */
+
+/* HEART VECTOR */
+#heart_vector {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  grid-row: 1/3;
+  grid-column: 2/4;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* GRID til project.html */
+
+#project_main_container {
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#project_main_container h1 {
+  font-size: 20px;
+  font-family: "Young Serif", serif;
+  text-decoration: solid;
+  text-transform: uppercase;
+  margin: 5rem;
+  margin-top: 0;
+  max-width: 20vh;
+}
+
+/* WHO AM I CSS */
+
+#whoami_h1 {
+  font-size: 15px;
+  max-width: 60vh;
+  color: white;
+  font-family: "Young Serif";
+  align-self: center;
+  text-align: center;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin-bottom: 15rem;
+}
+#whoami_h1 p {
+  font-size: 15px;
+  max-width: 60vh;
+  color: red;
+  font-family: "Young Serif";
+  align-self: center;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#ostepops1 img {
+  width: 100%;
+  height: auto;
+}
+#monochrome_mugshot {
+  margin: 8rem;
+  margin-left: 10rem;
+  z-index: 20;
+  align-self: center;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#whoami_p {
+  font-size: 15px;
+  max-width: 50vh;
+  color: white;
+  font-family: "Young Serif";
+  z-index: 20;
+  margin-left: 3rem;
+  text-align: justify;
+}
+
+#whoami_h3 {
+  font-size: 15px;
+  max-width: 50vh;
+  color: orange;
+  font-family: "Young Serif";
+  z-index: 20;
+  text-align: justify;
+}
+
+#monochrome_mugshot,
+#whoami_p {
+  flex: 1;
+}
+
+#whoami_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0fr;
+  grid-gap: 20rem;
+  background-image: url(Graphics/Ostepops1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#monochrome_mugshot img {
+  width: 80%;
+  height: auto;
+  border-radius: 30px;
+  margin-bottom: 20rem;
+  margin-left: 20rem;
+  margin-top: 1rem;
+}
+
+#render_warp_2 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-top: 7rem;
+}
+
+/* 02 HTML (TEMA 02) */
+
+#html_01_grid {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(Graphics/A_VERY_RED_SOUNDWAVE.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 1rem;
+}
+
+#html_01_h1 {
+  color: white;
+  font-size: 15px;
+  font-family: "Young Serif";
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+#html_01_h1 h1 {
+  margin-top: 3rem;
+}
+
+#min_computer_screenshot {
+  flex: 1 1 50%;
+  border-radius: 15%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#min_computer_screenshot img {
+  width: 50%;
+  height: auto;
+  border-radius: 10%;
+  margin: auto;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+#min_computer_info_p {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  column-count: 3;
+  column-gap: 5rem;
+  line-height: 1.5rem;
+}
+
+#min_computer_info_p p {
+  color: white;
+  font-size: 20px;
+  font-family: "EB Garamond", sans-serif, serif;
+  text-align: justify;
+  display: inline-block;
+}
+
+/* 03 HTML (TEMA 03) */
+
+#html_03_grid {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(Graphics/UX&UI.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 1rem;
+}
+
+#html_03_h1 {
+  color: white;
+  font-size: 15px;
+  font-family: "DM Serif Display Regular";
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+#html_03_h1 h1 {
+  margin-top: 3rem;
+}
+
+#tema_03_forside {
+  border-radius: 15%;
+  margin: auto;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#tema_03_forside img {
+  width: 75%;
+  height: auto;
+  border-radius: 10%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+#tema_03_info_p {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  column-count: 3;
+  column-gap: 5rem;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+#tema_03_info_p p {
+  color: white;
+  font-size: 20px;
+  font-family: "EB Garamond", sans-serif, serif;
+  text-align: justify;
+  display: inline-block;
+}
+
+/* 04 HTML (TEMA 04) */
+
+#html_04_grid {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(Graphics/weird_pasta_vectors.svg);
+  background-repeat: no-repeat;
+  margin-top: 3rem;
+}
+
+#html_04_h1 {
+  color: white;
+  font-size: 15px;
+  font-family: "Young Serif";
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+#html_04_h1 h1 {
+  margin-top: 3rem;
+}
+
+#tema_04_forside {
+  border-radius: 15%;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+}
+
+#tema_04_forside img {
+  width: 50%;
+  height: auto;
+  border-radius: 10%;
+  margin: auto;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#tema_04_sketch {
+  transform: rotate(270deg);
+}
+
+#tema_04_info_p {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  column-count: 3;
+  column-gap: 5rem;
+  line-height: 1.5rem;
+}
+
+#tema_04_info_p p {
+  color: white;
+  font-size: 20px;
+  font-family: "EB Garamond", sans-serif, serif;
+  text-align: justify;
+  display: inline-block;
+}
+
+/* 05 HTML (TEMA 05) */
+
+#html_05_grid {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(Graphics/rossaneri_vector.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 1rem;
+}
+
+#html_05_h1 {
+  color: white;
+  font-size: 15px;
+  font-family: "Young Serif";
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+#html_05_h1 h1 {
+  margin-top: 3rem;
+}
+
+#tema_05_forside {
+  border-radius: 15%;
+  margin: auto;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#tema_05_forside img {
+  width: 75%;
+  height: auto;
+  border-radius: 10%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+#tema_05_info_p {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  column-count: 3;
+  column-gap: 5rem;
+  line-height: 1.5rem;
+}
+
+#tema_05_info_p p {
+  color: white;
+  font-size: 20px;
+  font-family: "EB Garamond", sans-serif, serif;
+  text-align: justify;
+  display: inline-block;
+}
+
+/* DESKTOP VIEW (GREATER THAN 2400px) */
+
+@media screen and (min-width: 2200px) {
+  #min_computer_p,
+  #tema_03_info_p,
+  #tema_05_info_p,
+  #tema_04_info_p,
+  #tema_06_info_p {
+    columns: 3;
+  }
+  #monochrome_mugshot img {
+    width: 33%;
+    height: auto;
+  }
+}
+/* SMARTPHONE VIEW CSS */
+
+@media screen and (max-width: 800px) {
+  #whoami_main_grid {
+    grid-template-columns: 1fr;
+  }
+  .menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  nav.active .menu {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  nav.active .menu li {
+    margin: 10px 10px;
+  }
+
+  nav.active .menu a {
+    font-size: 15px;
+  }
+  .menu a {
+    color: red;
+    font-family: "Young Serif", sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .menu a:hover {
+    color: white;
+    font-family: "Young Serif", sans-serif;
+  }
+
+  #html_01_h1 {
+    color: white;
+    font-size: 10px;
+    font-family: "EB Garamond", sans-serif, serif;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  #html_01_h1 a {
+    color: white;
+    font-size: 12px;
+  }
+  #html_01_h1 a:hover {
+    color: red;
+    font-size: 12px;
+  }
+
+  #min_computer_screenshot {
+    border-radius: 15%;
+    margin: 2rem auto;
+  }
+
+  #min_computer_screenshot img {
+    width: 80%;
+    height: auto;
+    border-radius: 10%;
+    margin: auto;
+  }
+
+  #min_computer_info_p {
+    column-count: 1;
+  }
+
+  #min_computer_info_p p {
+    color: white;
+    font-size: 15px;
+    font-family: "EB Garamond", sans-serif, serif;
+    text-align: justify;
+    max-width: 40vh;
+  }
+
+  #html_03_grid {
+    background-image: none;
+  }
+
+  #html_03_h1 {
+    color: white;
+    font-size: 10px;
+    font-family: "EB Garamond", sans-serif, serif;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  #html_03_h1 a {
+    color: white;
+    font-size: 12px;
+  }
+  #html_03_h1 a:hover {
+    color: red;
+    font-size: 12px;
+  }
+
+  #tema_03_forside {
+    border-radius: 15%;
+    margin: 2rem auto;
+  }
+
+  #tema_03_forside img {
+    width: 80%;
+    height: auto;
+    border-radius: 10%;
+    margin: auto;
+  }
+
+  #tema_03_info_p {
+    column-count: 1;
+  }
+
+  #tema_03_info_p p {
+    color: white;
+    font-size: 15px;
+    font-family: "EB Garamond", sans-serif, serif;
+    text-align: justify;
+    max-width: 40vh;
+  }
+
+  #html_04_h1 {
+    color: white;
+    font-size: 10px;
+    font-family: "EB Garamond", sans-serif, serif;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  #html_04_h1 a {
+    color: white;
+    font-size: 12px;
+  }
+  #html_04_h1 a:hover {
+    color: red;
+    font-size: 12px;
+  }
+
+  #tema_04_forside {
+    border-radius: 15%;
+    margin-left: 3rem;
+  }
+
+  #tema_04_forside img {
+    width: 80%;
+    height: auto;
+    border-radius: 10%;
+    margin: auto;
+    margin-left: 1rem;
+    margin-right: 2rem;
+  }
+
+  #tema_04_info_p {
+    column-count: 1;
+  }
+
+  #tema_04_info_p p {
+    color: white;
+    font-size: 15px;
+    font-family: "EB Garamond", sans-serif, serif;
+    text-align: justify;
+    max-width: 40vh;
+  }
+
+  #html_05_h1 {
+    color: white;
+    font-size: 10px;
+    font-family: "EB Garamond", sans-serif, serif;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  #html_05_h1 a {
+    color: white;
+    font-size: 12px;
+  }
+  #html_05_h1 a:hover {
+    color: red;
+    font-size: 12px;
+  }
+
+  #tema_05_forside {
+    border-radius: 15%;
+    margin: 2rem auto;
+  }
+
+  #tema_05_forside img {
+    width: 80%;
+    height: auto;
+    border-radius: 10%;
+    margin: auto;
+  }
+
+  #tema_05_info_p {
+    column-count: 1;
+  }
+
+  #tema_05_info_p p {
+    color: white;
+    font-size: 15px;
+    font-family: "EB Garamond", sans-serif, serif;
+    text-align: justify;
+    max-width: 40vh;
+  }
+
+  p {
+    color: white;
+    font-family: "Young Serif", sans-serif;
+    max-width: 65ch;
+    text-align: justify;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 4rem;
+  }
+
+  #project_main_container {
+    display: inherit;
+    grid-template-columns: 1fr;
+    margin-top: 7rem;
+    border: none;
+    text-align: left;
+  }
+
+  #index_h1 {
+    display: grid;
+    color: red;
+    font-family: "Young Serif", serif;
+    text-decoration: solid;
+    text-transform: uppercase;
+    justify-items: center;
+    font-size: 10px;
+  }
+  #index_h1 h4 {
+    display: grid;
+    color: white;
+    font-size: 10px;
+    font-family: "Young Serif", serif;
+    text-decoration: solid;
+    text-transform: uppercase;
+    justify-items: center;
+    margin-top: 0;
+  }
+
+  #MM_kinetic_warp {
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+  }
+
+  #whoami_grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(Graphics/Ostepops1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-gap: 0;
+  }
+
+  #monochrome_mugshot img {
+    width: 70%;
+    height: auto;
+    border-radius: 30px;
+    margin: auto;
+  }
+
+  #whoami_p {
+    font-size: 12px;
+    max-width: 50%;
+    color: white;
+    font-family: "Young Serif";
+    z-index: 20;
+    text-align: center;
+    max-width: 40vh;
+  }
+  #whoami_h3 {
+    font-size: 12px;
+    max-width: 50vh;
+    color: black;
+    font-family: "Young Serif";
+    z-index: 20;
+    text-align: justify;
+  }
+
+  p {
+    color: white;
+    font-family: "Young Serif", sans-serif;
+    max-width: 80%;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 2rem;
+    text-align: justify;
+  }
+
+  #project_main_container {
+    grid-template-columns: 1fr;
+    border-left: 5px solid white;
+    padding-left: 10px;
+  }
+
+  #index_h1 {
+    display: grid;
+    color: red;
+    font-family: "Young Serif", serif;
+    text-decoration: solid;
+    text-transform: uppercase;
+    justify-items: center;
+    font-size: 10px;
+  }
+
+  #MM_kinetic_warp {
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+  }
+  #whoami_h1 {
+    font-size: 12px;
+    max-width: 60vh;
+    color: white;
+    font-family: "Young Serif";
+    text-align: center;
+    margin: auto;
+  }
+  #render_warp_2 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  #footer {
+    font-family: "Arimo";
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+    gap: 10px;
+    border-top: 1px solid white;
+    padding: 20px;
+  }
+  #footer p {
+    font-family: "Arimo";
+    text-transform: uppercase;
+    font-size: 7px;
+    margin: auto;
+    text-align: center;
+    color: red;
+  }
+}

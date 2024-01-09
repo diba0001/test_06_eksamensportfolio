@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 712.66 392.56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #006837;
+        font-family: Arial-Black, 'Arial Black';
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        font-size: 200px;
+      }
+
+      .cls-5 {
+        font-size: 100px;
+        letter-spacing: -.36em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.14em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-1" transform="translate(0 171.6)"><tspan class="cls-4" x="0" y="0">U</tspan><tspan class="cls-3" x="138.6" y="0">X</tspan><tspan class="cls-5" x="270.17" y="0">&amp;</tspan><tspan class="cls-3" x="323.08" y="0">U</tspan><tspan class="cls-2" x="465.69" y="0">I</tspan></text>
+  </g>
+</svg>
